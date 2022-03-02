@@ -118,7 +118,7 @@ class _FormState extends State<Form> {
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Text('วุฒิการศึกษา'),
+              child: Text('วุฒิการศึกษา', textAlign: TextAlign.center),
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
@@ -149,7 +149,10 @@ class _FormState extends State<Form> {
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Text('โครงการที่ใช้สมัคร'),
+              child: Text(
+                'โครงการที่ใช้สมัคร',
+                textAlign: TextAlign.center,
+              ),
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
@@ -180,7 +183,7 @@ class _FormState extends State<Form> {
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Text('อันดับที่ 1'),
+              child: Text('อันดับที่ 1', textAlign: TextAlign.center),
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
@@ -213,7 +216,7 @@ class _FormState extends State<Form> {
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Text('อันดับที่ 2'),
+              child: Text('อันดับที่ 2', textAlign: TextAlign.center),
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
@@ -247,7 +250,7 @@ class _FormState extends State<Form> {
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Text('อันดับที่ 3'),
+              child: Text('อันดับที่ 3', textAlign: TextAlign.center),
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
